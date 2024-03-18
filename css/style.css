@@ -440,7 +440,11 @@
   gap: 20px;
 }
 .art_social ul {
-  display: flex;
-  justify-content: space-between;
+  display: flex; 
   align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.art_social ul li a{
+  color: #3c3c3c;
 }
