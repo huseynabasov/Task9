@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@
 }
 
 /*Navbar css*/
-.art_navbar_section { 
+.art_navbar_section {
   padding: 50px 0;
 }
 
@@ -145,11 +145,11 @@
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -281,7 +281,6 @@
 
 .grid_img:hover .grid_imghov {
   display: inherit;
-
 }
 
 .grid_img_txt {
@@ -312,7 +311,7 @@
   background-color: rgb(29, 29, 29);
 }
 
-.art_section_four .container+hr {
+.art_section_four .container + hr {
   border-color: #494949;
 }
 
@@ -340,18 +339,21 @@
 }
 
 /*Partner*/
-.art_partner, .art_news {
+.art_partner,
+.art_news {
   display: grid;
   width: 100%;
   grid-template-columns: 50% 50%;
   padding: 40px 0;
 }
 
-.partner_h h2, .art_news_h h2 {
+.partner_h h2,
+.art_news_h h2 {
   font-weight: 300;
 }
 
-.partner_h_desc p, .art_news_h_desc p {
+.partner_h_desc p,
+.art_news_h_desc p {
   font-weight: 300;
   font-size: 14px;
   color: #000000;
@@ -380,7 +382,7 @@
   text-align: center;
   background-color: #ffffffad;
   display: none;
-  transition:all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .art_partner_card .partner_card img {
@@ -394,7 +396,7 @@
 }
 .partner_card:hover .partner_card_hov {
   display: inherit;
-  transition:all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 /*News*/
@@ -415,7 +417,7 @@
   align-items: flex-start;
 }
 .art_news_img img {
-  width: 150px; 
+  width: 150px;
 }
 .art_news_card_desc {
   padding: 0 20px;
@@ -428,7 +430,7 @@
   font-size: 15px;
 }
 .art_news_img img:hover {
-  opacity: 0.5; 
+  opacity: 0.5;
 }
 
 /*footer*/
@@ -440,11 +442,26 @@
   gap: 20px;
 }
 .art_social ul {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: end;
   gap: 20px;
 }
-.art_social ul li a{
+.art_social ul li a {
   color: #3c3c3c;
+}
+.art_up {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.art_up p{
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+.art_up p:hover {
+  background-color: green;
+  color: white;
 }
